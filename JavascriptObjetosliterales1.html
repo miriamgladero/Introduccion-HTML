@@ -9,21 +9,22 @@
     <div id="div1"></div>
     <script>
         let coche ={
-            color: "rojo"
-            marca: "ford"
-            modelo: "focus"
-            motor { 
+            color: "rojo",
+            marca: "ford",
+            modelo: "focus",
+            motor: { 
                 cilindros: 4,
                 capacidad: 2.2,
 
             },
+            ruedas: 4,
         };
         document.getElementById("div1").innerHTML = 
         `<p>color: ${coche.color}</p>
         <p>marca:; ${coche.marca}</p>
         <p>modelo:; ${coche.modelo}</p>
         <p>cilindros:; ${coche.motor.cilindros}</p>
-        <p>capacidad:; ${coche.motor.capacidad}</p>
+        <p>capacidad:; ${coche.motor.capacidad}</p>`
         </script>
         
 </body>
