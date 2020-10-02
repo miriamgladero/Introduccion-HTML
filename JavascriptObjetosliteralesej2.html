@@ -12,10 +12,18 @@
         nombre: "miriam",
         edad: "32"
     }
-    console.log(nombre.edad)
+    console.log(persona)
 
-    altura: "1.65",
-    console.log(nombre.edad.altura)    
+persona.altura= 1.65
+   
+    console.log(persona)  
+  
+  document.getElementById("div1").innerHTML=`
+  <p> nombre: ${persona.nombre}</p> 
+  <p> edad: ${persona.edad}</p>
+  `
+
+
 </script>
 </body>
 </html>
